@@ -31,3 +31,17 @@ The first column contains subject IDs.
 The second column contains activity names.
 The averages for each of the 66 attributes are in columns 3-68.
 
+Variables
+
+testdata_fea - table contents of X_test.txt(features data test)
+traindata_fea - table contents of X_train.txt(features data train)
+data_fea  - Measurement data. Combined data set of the two above variables
+testdata_sub - table contents of subject_test.txt(subject test data)
+traindata_sub - table contents of subject_train.txt(subject train data)
+data_sub - Subjects. Combined data set of the two above variables
+testdata_act - table contents of y_test.txt(actvity test data)
+traindata_act - table contents of y_train.txt(actvity train data)
+data_act - Data Labels. Combined data set of the two above variables.
+features_names - table contents of features.txt
+tidy_data - subsetted, human-readable data ready for output according to project description.
+avg- second tiny data set with average of each variable for each activity and subject
